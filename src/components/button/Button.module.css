@@ -1,0 +1,13 @@
+.btn {
+  display: grid;
+  place-content: center;
+  padding: 24px 48px;
+  width: 182px;
+  height: 66px;
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  background-color: #63e1e1;
+  border-radius: 36px;
+  border: none;
+  cursor: pointer;
+}

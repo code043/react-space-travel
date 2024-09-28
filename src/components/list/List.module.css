@@ -1,0 +1,37 @@
+.list-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 24px 56px;
+  width: auto;
+  height: 171px;
+  border-radius: 32px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.3) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  backdrop-filter: blur(4px);
+  border: 1px solid #fff;
+}
+.list-content li {
+  width: 231px;
+  height: 123px;
+}
+.list-content img {
+  width: 24px;
+  height: 24px;
+}
+.list-content h4,
+p {
+  font-family: "Avenir";
+  color: rgb(248, 245, 250);
+  margin-bottom: 8px;
+}
+.list-content h4 {
+  font-size: 24px;
+}
+.list-content p {
+  font-size: 18px;
+}
